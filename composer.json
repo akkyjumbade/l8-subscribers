@@ -1,0 +1,28 @@
+{
+   "name": "akkyjumbade/l8-subscribers",
+   "description": "Subscribers for your Laravel 8 application",
+   "type": "library",
+   "require": {
+      "php": "^7.1",
+      "livewire/livewire": "^2.2"
+   },
+   "autoload": {
+      "psr-4": {
+         "AkshayJumbade\\Subscriber\\": "src"
+      }
+   },
+   "authors": [
+      {
+         "name": "akshay",
+         "email": "akkyjumbade@gmail.com"
+      }
+   ],
+   "minimum-stability": "dev",
+   "extra": {
+      "laravel": {
+         "providers": [
+            "AkshayJumbade\\Subscriber\\SubscribersServiceProvider"
+         ]
+      }
+   }
+}
